@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .c-dark {
@@ -33,6 +33,11 @@ body {
     padding-top: 48px;
     padding-bottom: 48px;
 }
+@media screen and (min-width: 1024px) {
+    .p\+\+\@desk {
+        padding: 96px;
+    }
+}
 .p\+\+ {
     padding: 96px;
 }
@@ -41,16 +46,35 @@ body {
 }
 
 
+@media screen and (min-width: 1024px) {
+    .m0\@desk {
+        margin: 0;
+    }
+}
 .m0 {
     margin: 0;
 }
 .mb\- {
     margin-bottom: 12px;
 }
+.mt\+ {
+    margin-top: 48px;
+}
+@media screen and (min-width: 1024px) {
+    .mt\+\@desk {
+        margin-top: 48px;
+    }
+}
 
 .ta-left {
     text-align: left;
 }
+@media screen and (min-width: 1024px) {
+    .ta-left\@desk {
+        text-align: left;
+    }
+}
+
 .ta-center {
     text-align: center;
 }
@@ -107,8 +131,13 @@ body {
     max-width: 1200px;
 }
 
-.w1\/1 {
+.w-full {
     width: 100%;
+}
+@media screen and (min-width: 1024px) {
+    .w-auto\@desk {
+        width: auto;
+    }
 }
 .w1\/2 {
     width: 50%;
