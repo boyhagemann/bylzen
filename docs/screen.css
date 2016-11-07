@@ -1,0 +1,134 @@
+body {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.c-dark {
+    color: #444;
+}
+.c-blank {
+    color: #fff;
+}
+.c-primary {
+    color: #2583db;
+}
+.c-primary\+\+\+ {
+    color: #83b8ea;
+}
+
+.bgc-primary {
+    background-color: #2583db;
+}
+.bgc-primary\- {
+    background-color: #156fc4;
+}
+.p\- {
+    padding: 18px;
+}
+.p {
+    padding: 24px;
+}
+.pv\+ {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.p\+\+ {
+    padding: 96px;
+}
+.p0 {
+    padding: 0;
+}
+
+
+.m0 {
+    margin: 0;
+}
+.mb\- {
+    margin-bottom: 12px;
+}
+
+.ta-left {
+    text-align: left;
+}
+.ta-center {
+    text-align: center;
+}
+
+.td-none {
+    text-decoration: none;
+}
+
+
+.fs-2 {
+    font-size: 20px;
+}
+.fs-3 {
+    font-size: 24px;
+}
+.fs-4 {
+    font-size: 48px;
+}
+.fs-5 {
+    font-size: 72px;
+}
+
+.lh-1 {
+    line-height: 20px;
+}
+.lh-2 {
+    line-height: 20px;
+}
+.lh-3 {
+    line-height: 24px;
+}
+.lh-4 {
+    line-height: 48px;
+}
+.lh-5 {
+    line-height: 72px;
+}
+
+
+/*.ff-1 {*/
+    /*font-family: Inconsolata;*/
+/*}*/
+.ff-robot {
+    font-family: "Share Tech Mono";
+}
+
+.box {
+    display: inline-block;
+    box-sizing: border-box;
+}
+.box-center {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.w1\/1 {
+    width: 100%;
+}
+.w1\/2 {
+    width: 50%;
+}
+.w1\/4 {
+    width: 25%;
+}
+.w1\/3 {
+    width: 33.333333333333%;
+}
+@media screen and (min-width: 1024px) {
+    .w1\/3\@desk {
+        width: 33.333333333333%;
+    }
+}
+.w2\/3 {
+    width: 66.666666666667%;
+}
+@media screen and (min-width: 1024px) {
+    .w2\/3\@desk {
+        width: 66.666666666667%;
+    }
+}
